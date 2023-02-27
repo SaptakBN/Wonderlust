@@ -1,0 +1,1234 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wonderlust</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Comfortaa:wght@300;400&family=Kalam&family=Monoton&family=Oswald:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="fixed-top">
+    <nav class="navbar navbar-expand-lg bg-light" aria-label="Thirteenth navbar example">
+      <div class="container-fluid">
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse d-lg-flex collapse mx-lg-5 px-lg-5 fs-3" id="navbarsExample11">
+
+          <a class="navbar-brand col-lg-3 me-0" href="index.html">
+            <img class="animate__animated animate__bounceInDown" width="25%" src="image/logo.png" alt="">
+            <span class="logo-text animate__animated animate__zoomIn animate__delay-1s">Wonderlust</span>
+          </a>
+
+
+          <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active home" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link about" href="#about-us">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle package" href="#" data-bs-toggle="dropdown"
+                aria-expanded="false">Packages</a>
+              <ul class="dropdown-menu bg-secondary bg-opacity-75 text-light">
+                <li><a class="dropdown-item" href="#">Top trending places</a></li>
+                <li>
+                  <hr>
+                </li>
+                <li><a class="dropdown-item" href="#">Mountains</a></li>
+                <li><a class="dropdown-item" href="#">Hill Station</a></li>
+                <li><a class="dropdown-item" href="#">Beaches</a></li>
+                <li><a class="dropdown-item" href="#">Forests & Wildlife</a></li>
+                <li><a class="dropdown-item" href="#">Historical Places</a></li>
+                <li>
+                  <hr>
+                </li>
+                <li><a class="dropdown-item" href="#">Weekend Getaways</a></li>
+                <li><a class="dropdown-item" href="#">Cultural Spots</a></li>
+                <li>
+                  <hr>
+                </li>
+                <li><a class="dropdown-item" href="#">Browse All</a></li>
+
+
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link contact" href="#contact-us">Contact Us</a>
+            </li>
+          </ul>
+          <div class="d-lg-flex col-lg-3 justify-content-lg-end">
+            <button type="button" class="btn btn-outline-success ps-2 ms-2" data-bs-toggle="modal"
+              data-bs-target="#loginModal">
+              Log in
+            </button>
+            <button type="button" class="btn btn-success ps-2 ms-2" data-bs-toggle="modal"
+              data-bs-target="#signupModal">
+              Sign up
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- carousels  -->
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    </div>
+  
+    <div class="carousel-inner justify-content-center align-content-center">
+      <div class="carousel-item active" data-bs-interval="4000">
+        <img src="image/source.unsplash.jpg" class="mt-5 d-block w-100" alt="...">
+        <div class=" carousel-caption bg-black bg-opacity-50 mb-lg-5 text-center">
+          <h1 class="">Let us plan you a perfect <span class="text-danger  fw-bolder">Indian Holiday</span></h1>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="image/source.unsplash4.jpg" class="mt-5 d-block w-100" alt="...">
+        <div class=" carousel-caption bg-black bg-opacity-50 mb-lg-5 text-center">
+          <h1 class="">Let us plan you a perfect <span class="text-danger fw-bolder">Indian Holiday</span></h1>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="image/source.unsplash3.jpg" class="mt-5 d-block w-100" alt="...">
+        <div class=" carousel-caption bg-black bg-opacity-50 mb-lg-5 text-center">
+          <h1 class="">Let us plan you a perfect <span class="text-danger fw-bolder">Indian Holiday</span></h1>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="image/source.unsplash5.jpg" class="mt-5 d-block w-100" alt="...">
+        <div class=" carousel-caption bg-black bg-opacity-50 mb-lg-5 text-center">
+          <h1 class="">Let us plan you a perfect <span class="text-danger fw-bolder">Indian Holiday</span></h1>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="image/source.unsplash8.jpg" class="mt-5 d-block w-100" alt="...">
+        <div class=" carousel-caption bg-black bg-opacity-50 mb-lg-5 text-center">
+          <h1 class="">Let us plan you a perfect <span class="text-danger fw-bolder">Indian Holiday</span></h1>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="image/source.unsplash9.jpg" class="mt-5 d-block w-100" alt="...">
+        <div class=" carousel-caption bg-black bg-opacity-50 mb-lg-5 text-center">
+          <h1 class="">Let us plan you a perfect <span class="text-danger fw-bolder">Indian Holiday</span></h1>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  
+  
+  </div>
+
+
+  <!-- CARDS -->
+
+
+  <section id="team" class="pb-5">
+    <div class="container gx-lg-5">
+      <h5 class="section-title h1 text-center">Choose your destination</h5>
+      <d class="row">
+        <!-- Trekking -->
+        <div class="col-xs-12 col-sm-6 col-md-4" data-aos="fade-right">
+          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+            <div class="mainflip">
+              <div class="frontside">
+                <div class="card h-auto rounded-5 shadow ">
+                  <div class="card-header rounded-top-5 bg-dark-subtle">
+                    <h1 class="card-title text-secondary">Trekking</h1>
+                    <img class="float-end" src="image/trekking-icon.png" width="18%" height="18%"
+                      alt="Animal paw vector icon" />
+                  </div>
+                  <div class="card-body bg-secondary">
+                    <img src="image/trekking.jpg" class="card-img-top rounded-5" alt="...">
+                  </div>
+                  <div class="card-footer rounded-bottom-5 bg-dark">
+                    <small class="text-light float-end">70+ Packages</small>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card container-fluid">
+                  <div class="card-body text-left mt-4">
+                    <h4 class="card-title">Trekking Packages</h4>
+                    <p>
+
+                      <button class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#1collapseExample" aria-expanded="false" aria-controls="1collapseExample">
+                        Uttarakhand
+                      </button>
+                      <button class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#2collapseExample" aria-expanded="false" aria-controls="2collapseExample">
+                        Himachal
+                      </button>
+                      <button class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#3collapseExample" aria-expanded="false" aria-controls="3collapseExample">
+                        Sikkim
+                      </button>
+                    </p>
+                    <div class="collapse" id="1collapseExample">
+                      <div class="card card-body">
+                        <ul class="justify-content-lg-start">
+                          <li>Brahmatal Trek <span class="text-muted">24km</span></li>
+                          <li>Nag Tibba Trek <span class="text-muted">40km</span></li>
+                          <li>Harkidun Trek <span class="text-muted">105km</span></li>
+                          <li>Kedar Kanthak Trek <span class="text-muted">32km</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="collapse" id="2collapseExample">
+                      <div class="card card-body">
+                        <ul class="justify-content-lg-start">
+                          <li>Beas Kund Trek <span class="text-muted">30km</span></li>
+                          <li>Mani Mahesh Kailash Trek <span class="text-muted">54km</span></li>
+                          <li>Hamta Pass Trek <span class="text-muted">50km</span></li>
+                          <li>Kareri Lake Trek <span class="text-muted">35km</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="collapse" id="3collapseExample">
+                      <div class="card card-body">
+                        <ul class="justify-content-lg-start">
+                          <li>Dzongri Trek <span class="text-muted">50km</span></li>
+                          <li>Green Lake Trek <span class="text-muted">92km</span></li>
+                          <li>Singalila-Sndakphu Trek <span class="text-muted">60km</span></li>
+                          <li>Kanchenjungha Basecamp Trek <span class="text-muted">90km</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./trekking -->
+        <!-- wildlife -->
+        <div class="col-xs-12 col-sm-6 col-md-4" data-aos="zoom-in">
+          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+            <div class="mainflip">
+              <div class="frontside">
+                <div class="card h-auto rounded-5 shadow ">
+                  <div class="card-header rounded-top-5 bg-dark-subtle">
+                    <h1 class="card-title text-secondary">Wildlife</h1>
+                    <img class="float-end" src="image/animal-paw-print.png" width="18%" height="18%"
+                      alt="Animal paw vector icon" />
+                  </div>
+                  <div class="card-body bg-secondary">
+                    <img src="/image/wildlife.jpg" class="card-img-top rounded-5" alt="...">
+                  </div>
+                  <div class="card-footer rounded-bottom-5 bg-dark">
+                    <small class="text-light float-end">70+ Packages</small>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card container-fluid">
+                  <div class="card-body text-left mt-4">
+                    <h4 class="card-title">Wildlife Packages</h4>
+                    <p>
+
+                      <button class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#1collapseExample" aria-expanded="false" aria-controls="1collapseExample">
+                        Tiger Safari
+                      </button>
+                      <button class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#2collapseExample" aria-expanded="false" aria-controls="2collapseExample">
+                        Wildlife Safari
+                      </button>
+                      <button class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#3collapseExample" aria-expanded="false" aria-controls="3collapseExample">
+                        Birdwatching
+                      </button>
+                    </p>
+                    <div class="collapse" id="1collapseExample">
+                      <div class="card card-body">
+                        <ul class="justify-content-lg-start">
+                          <li>Kipling's playground Tiger</li>
+                          <li>Golden Triangle with wildlife of India</li>
+                          <li>North and central India Tiger tour</li>
+                          <li>India Tiger Tour</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="collapse" id="2collapseExample">
+                      <div class="card card-body">
+                        <ul class="justify-content-lg-start">
+                          <li>Best of north Indian wildlife tour</li>
+                          <li>Jaldapara and Gorumara</li>
+                          <li>Kaziranga Wildlife tour</li>
+                          <li>Corbett Wildlife tour</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="collapse" id="3collapseExample">
+                      <div class="card card-body">
+                        <ul class="justify-content-lg-start">
+                          <li>Birding in Assam</li>
+                          <li>Birding in Namdapha</li>
+                          <li>Birds of Assam and Eaglenest</li>
+                          <li>Lava and Neora Valley</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./wildlife -->
+        <!-- heritage -->
+        <div class="col-xs-12 col-sm-6 col-md-4" data-aos="fade-left">
+          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+            <div class="mainflip">
+              <div class="frontside">
+                <div class="card h-auto rounded-5 shadow ">
+                  <div class="card-header rounded-top-5 bg-dark-subtle">
+                    <h1 class="card-title text-secondary">Heritage</h1>
+                    <img class="float-end" src="image/heritage-icon.png" width="18%" height="18%"
+                      alt="Animal paw vector icon" />
+                  </div>
+                  <div class="card-body bg-secondary">
+                    <img src="image/heritage.jpg" class="card-img-top rounded-5" alt="...">
+                  </div>
+                  <div class="card-footer rounded-bottom-5 bg-dark">
+                    <small class="text-light float-end">25+ Packages</small>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card container-fluid">
+                  <div class="card-body text-left mt-4">
+                    <h4 class="card-title">Heritage Packages</h4>
+                    <p>
+
+                      <button class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#1collapseExample" aria-expanded="false" aria-controls="1collapseExample">
+                        Temples
+                      </button>
+                      <button class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#2collapseExample" aria-expanded="false" aria-controls="2collapseExample">
+                        Architectures
+                      </button>
+                      <button class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#3collapseExample" aria-expanded="false" aria-controls="3collapseExample">
+                        Monuments
+                      </button>
+                    </p>
+                    <div class="collapse" id="1collapseExample">
+                      <div class="card card-body">
+                        <ul class="justify-content-lg-start">
+                          <li>Vaishnu devi, Jammu and Kashmir</li>
+                          <li>Bodh Gaya, Bihar</li>
+                          <li>Chola Temple, Tamil Nadu</li>
+                          <li>Sun Temple, Konarak, Odissa</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="collapse" id="2collapseExample">
+                      <div class="card card-body">
+                        <ul class="justify-content-lg-start">
+                          <li>Red Fort Delhi</li>
+                          <li>Agra Fort, Agra</li>
+                          <li>Fatehpur Sikri</li>
+                          <li>Rani Ki Vav, Gujarat</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="collapse" id="3collapseExample">
+                      <div class="card card-body">
+                        <ul class="justify-content-lg-start">
+                          <li>Qutub Minar Delhi</li>
+                          <li>Elephant Cave</li>
+                          <li>Jantar Mantar, Jaipur</li>
+                          <li>Ellora Cave</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./Team member -->
+
+        <!-- DESTINATION MEMBERS -->
+        <div class="container-fluid d-flex justify-content-between my-5">
+          <h1 class="clearfix">Top trending<span class="indianholiday"> Indian Holiday </span>destinations</h1>
+          <button type="button" class="btn btn-outline-success ps-2 ms-2" data-bs-toggle="modal">
+            View All Tours
+          </button>
+        </div>
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <div class="col-md-2 py-3">
+              <div class="content"> <a href="#">
+                  <div class="content-overlay"></div> <img class="content-image" src="image/uttarakhand.jpg">
+                  <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">Uttarakhand</h3>
+                    <p class="content-text"><i class="fa fa-map-marker"></i>70 Tour Packages</p>
+                  </div>
+                </a> </div>
+            </div>
+            <div class="col-md-2 py-3">
+              <div class="content"> <a href="#">
+                  <div class="content-overlay"></div> <img class="content-image" src="image/kashmir.jpg">
+                  <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">Kashmir</h3>
+                    <p class="content-text"><i class="fa fa-map-marker"></i>40 Tour Packages</p>
+                  </div>
+                </a> </div>
+            </div>
+            <div class="col-md-2 py-3">
+              <div class="content"> <a href="#">
+                  <div class="content-overlay"></div> <img class="content-image" src="image/himachal.jpg">
+                  <div class="content-details fadeIn-bottom ">
+                    <h3 class="content-title">Himachal</h3>
+                    <p class="content-text"><i class="fa fa-map-marker"></i>50 Tour Packages</p>
+                  </div>
+                </a> </div>
+            </div>
+            <div class="col-md-2 py-3">
+              <div class="content"> <a href="#">
+                  <div class="content-overlay"></div> <img class="content-image" src="image/sikkim.jpg">
+                  <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">Sikkim</h3>
+                    <p class="content-text"><i class="fa fa-map-marker"></i>45 Tour Packages</p>
+                  </div>
+                </a> </div>
+            </div>
+            <div class="col-md-2 py-3">
+              <div class="content"> <a href="#">
+                  <div class="content-overlay"></div> <img class="content-image" src="image/arunachal.jpg">
+                  <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">Arunachal</h3>
+                    <p class="content-text"><i class="fa fa-map-marker"></i>20 Tour Packages</p>
+                  </div>
+                </a> </div>
+            </div>
+            <div class="col-md-2 py-3">
+              <div class="content"> <a href="#">
+                  <div class="content-overlay"></div> <img class="content-image" src="image/rajasthan.jpg">
+                  <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">Rajasthan</h3>
+                    <p class="content-text"><i class="fa fa-map-marker"></i>80 Tour Packages</p>
+                  </div>
+                </a> </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- /DESTINATION MEMBERS -->
+
+        <!-- customer served -->
+
+
+        <div class=" text-center numbers rounded-2 my-5">
+          <div class="container-fluid text-light stat-heading w-100">
+            <h1 class="text-right display-3">Our Customers Return to Us for<br><span class="">Safe and Reliable Experience</span></h1>
+          </div>
+          <div class="row px-5 pb-5 pt-2">
+            <div id="counter-box" class="col-lg-4 col-md-12 col-12 g-5">
+              <div class="bg-black bg-opacity-75 g-5 rounded-2 text-light p-5">
+                <h3>Happy Clients</h3>
+                <span class='counter' data-number="3565">0</span>
+              </div>
+            </div>
+            <div id="counter-box" class="col-lg-4 col-md-12 col-12 g-5">
+              <div class="bg-black bg-opacity-75 g-5 rounded-2 text-light p-5">
+                <h3>Trips Planned</h3>
+                <span class='counter' data-number="17650">0</span>
+              </div>
+            </div>
+            <div id="counter-box" class="col-lg-4 col-md-12 col-12 g-5">
+              <div class="bg-black bg-opacity-75 g-5 rounded-2 text-light p-5">
+                <h3>Miles Covered</h3>
+                <span class='counter' data-number="88540">0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ABOUT US -->
+
+        <div data-aos="fade-up" class="container my-5" id="about-us">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-md-4 col-lg-4"><img class="img-fluid rounded-1" src="image/about-incrdble.jpeg"
+                  alt="images"></div>
+              <div class="col-12 col-md-4 col-lg-4">
+                <div class="container-fluid">
+                  <h3 class="highlight mb-lg-4 mt-lg-0 my-sm-3">About Incredible India</h3>
+                </div>
+                <div class="about-pera-graph">
+                  <p>
+                    Interesting and Intriguing, India offers incredible holiday experiences through its cultural,
+                    topography, and wildlife diversity. With these amazing and unique experiences, this south Asian
+                    country conveniently finds its way into the world tourism map as one of the finest destinations for
+                    a holistic vacation.
+                  </p>
+                  <p>
+                    India establishes its identity as the country of architectural masterpieces, making it an ideal
+                    travel destination to plan a heritage tour in the world. While Taj Mahal makes for the major draw on
+                    an India tour, there are a plethora of monuments and edifices in every India travel guide displaying
+                    the fine architecture and grandiose of different eras in the country.
+                  </p>
+                  <p>
+                    The diverse Indian topography adorned with the impressive Himalayas; long stretches of coastline;
+                    expansive hot, cold and white salt deserts; dense forests; alpine meadows and lakes; and scenic
+                    waterfalls pique the tourists’ interest.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 col-lg-4">
+                <div class="container-fluid d-flex justify-content-end">
+                  <button type="button" class="btn btn-success">Know More About TMI &#8594</button>
+                </div>
+                <br>
+                <div class="about-pera-graph">
+                  <p>Along with the best nature sightseeing tours, India offers an opportunity to visitors to have a
+                    little adventure of their own. The numerous spell-binding and less-trodden trails give trekking tour
+                    opportunities in South Asia unlike any other.
+                  </p>
+                  <p>
+                    India Tours offers a chance to explore its biodiversity in the country's many national parks and
+                    wildlife reserves. An enthralling experience entails in the India wildlife tour packages that take
+                    tourists to the habitats of Royal Bengal Tigers, one-horned rhinos, and snow leopards amongst many
+                    rare, endangered, and unique species of flora and fauna.
+                  </p>
+                </div>
+                <div class="quick-link d-flex justify-content-center flex-column ">
+                  <h4>Quick links</h4>
+                  <ul>
+                    <li><a href="kumbhmela/">Kumbh Mela Haridwar</a></li>
+                    <li><a href="adventure_tours/peak-climbing.html">Peak Climbing in India</a></li>
+                    <li><a href="pilgrimage/buddhist-pilgrimage-tour.html">Buddhism in India</a></li>
+                    <li><a href="ayurveda/">Yoga and Meditation</a></li>
+                    <li><a href="genral_information/fair_festival/">Fair and Festivals in India</a></li>
+                    <li><a href="map/">Maps of India</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- SUBCRIBE US -->
+
+
+
+        <div class="container m-lg-5" data-aos="fade-up">
+          <div class="row justify-content-center">
+            <div class="title col-12 col-lg-8">
+              <h1 class="align-center pb-2 mbr-fonts-style">DO NOT MISS EXCITING UPDATES</h1>
+              <h3 class="mbr-section-subtitle align-center pb-5 mbr-light mbr-fonts-style">
+                Subscribe to our Newsletter
+              </h3>
+            </div>
+          </div>
+
+          <div class="row py-2 justify-content-center">
+            <div class="col-12 col-lg-6  col-md-8 " data-form-type="formoid">
+              <div data-form-alert="" hidden="">
+                Thanks for filling out the form!
+              </div>
+              <form class="mbr-form" action="https://mobirise.com/" method="post" data-form-title="Mobirise Form"><input
+                  type="hidden" data-form-email="true"
+                  value="X02IqLZ67qgaTbygpwe62BYH9ITlPdkyH+D5/E/xsF4qiHxDp1WzmRlrnflgWHhYSGNd47JXXAqXamQGLSnWkaMtjcd84vrCSrJJDiD8MwOGwc5SCDZ8dZuO9a9eBJKF">
+                <div class="mbr-subscribe input-group">
+                  <input class="form-control" type="email" name="email" placeholder="Email" data-form-field="Email"
+                    required="" id="email-form3-2x">
+                  <span class="input-group-btn">
+                    <button href="" type="submit" class="btn btn-primary  display-4">SUBSCRIBE</button>
+                  </span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <!-- CHOOSE US -->
+
+        <div class="container review-card mt-5" data-aos="fade-up">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="text-success mt-2">Why Choose Us?</h1>
+              <p class="mb-5">More than 20 Years of Experience, Variety of Tour Packages, Best Deals and Personalised
+                Services.</p>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                class="bi bi-fire float-start" viewBox="0 0 16 16">
+                <path
+                  d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z" />
+              </svg>
+              <h3 class="text-danger">Experience</h3>
+              <p class="review">Our dedicated travel team diligently works round-the-clock to design the best travel
+                experiences for the customers. The skilled team spends considerable amounts of time ideating tour
+                packages that guarantee to make travelling with us an experience like no other. We select the finest
+                hotels in every category, boast an excellent personal fleet of vehicles for transportation.</p>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                class="bi bi-emoji-laughing float-start px-1" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                <path
+                  d="M12.331 9.5a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zM7 6.5c0 .828-.448 0-1 0s-1 .828-1 0S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 0-1 0s-1 .828-1 0S9.448 5 10 5s1 .672 1 1.5z" />
+              </svg>
+              <h3 class="text-danger">Positive Feedback</h3>
+              <p class="review">We're truly humbled to have received volumes of positive customer feedback for our
+                services. This appreciation from our prestigious clients is more valuable than any award for us. As a
+                customer-driven travel company, our priority has always been their satisfaction. Therefore, our
+                dedicated team of experts endeavours to achieve the goal of making our customers happy.</p>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                class="bi bi-award-fill float-start" viewBox="0 0 16 16">
+                <path
+                  d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z" />
+                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
+              </svg>
+              <h3 class="text-danger">Recognition</h3>
+              <p class="review">We are proud to be accredited by major tour and travel associations in India and world
+                like IATA, IATO, TAAI, IMF, MOT (Ministry of Tourism, Govt of India), and TOFT. It is an honour for us
+                to be able to be a part of crucial initiatives towards safeguarding animal rights, protection of
+                endangered species, and responsible mountaineering and trekking ventures.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- FAQ -->
+
+
+        <div class="container-fluid gx-0 my-lg-5" data-aos="fade-up">
+          <div class="container FAQ mt-5">
+            <div class="row">
+              <div class="col-12 text-success">
+                <h1>Frequently Asked Questions</h1>
+              </div>
+              <div class="col-12 col-lg-6 col-md-6 gx-5">
+                <h3 class="text-secondary my-3">India</h3>
+                <div class="accordion accordion-flush py-3" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-quora" viewBox="0 0 16 16">
+                          <path
+                            d="M8.73 12.476c-.554-1.091-1.204-2.193-2.473-2.193-.242 0-.484.04-.707.142l-.43-.863c.525-.45 1.373-.808 2.464-.808 1.697 0 2.568.818 3.26 1.86.41-.89.605-2.093.605-3.584 0-3.724-1.165-5.636-3.885-5.636-2.68 0-3.839 1.912-3.839 5.636 0 3.704 1.159 5.596 3.84 5.596.425 0 .811-.046 1.166-.15Zm.665 1.3a7.127 7.127 0 0 1-1.83.244C3.994 14.02.5 11.172.5 7.03.5 2.849 3.995 0 7.564 0c3.63 0 7.09 2.828 7.09 7.03 0 2.337-1.09 4.236-2.675 5.464.512.767 1.04 1.277 1.773 1.277.802 0 1.125-.62 1.179-1.105h1.043c.061.647-.262 3.334-3.178 3.334-1.767 0-2.7-1.024-3.4-2.224Z" />
+                        </svg>&emsp;
+                        What is the best time to travel in india ?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                      data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>
+                          The diverse topography of India comprises mountains, beaches, and deserts. The large size of
+                          the country also blesses it with different climatic conditions, which means that, while some
+                          places in India may have the mercury rising in the summers, there are some, where the weather
+                          is cool and pleasant. Therefore, the best time to travel to India depends on the places a
+                          tourist would like to visit in the country. However, it is also safe to say that the winter
+                          season (October - March) is mostly preferred by the tourists while visiting India.
+
+                          For wildlife sightings, both summer (March-mid June) and winter seasons are favourable. While
+                          the winter season is best for sighting animals basking in the sun during the day time, summer
+                          is the time when they can be seen frequently paying a visit to the water holes.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-quora" viewBox="0 0 16 16">
+                          <path
+                            d="M8.73 12.476c-.554-1.091-1.204-2.193-2.473-2.193-.242 0-.484.04-.707.142l-.43-.863c.525-.45 1.373-.808 2.464-.808 1.697 0 2.568.818 3.26 1.86.41-.89.605-2.093.605-3.584 0-3.724-1.165-5.636-3.885-5.636-2.68 0-3.839 1.912-3.839 5.636 0 3.704 1.159 5.596 3.84 5.596.425 0 .811-.046 1.166-.15Zm.665 1.3a7.127 7.127 0 0 1-1.83.244C3.994 14.02.5 11.172.5 7.03.5 2.849 3.995 0 7.564 0c3.63 0 7.09 2.828 7.09 7.03 0 2.337-1.09 4.236-2.675 5.464.512.767 1.04 1.277 1.773 1.277.802 0 1.125-.62 1.179-1.105h1.043c.061.647-.262 3.334-3.178 3.334-1.767 0-2.7-1.024-3.4-2.224Z" />
+                        </svg>&emsp;
+                        What kind of clothes do I need to travel to India ?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                      aria-labelledby="flush-headiThreengTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>
+                          Two things to keep in mind while packing for India are:
+                          <br><br>
+                          <span class="fw-bolder text-secondary">1. Season : </span> Since India experiences hot summers
+                          (in most of the parts) and chilly winters, travellers should pack according to the month they
+                          are planning a visit in. If the trip is planned in the months between March and September,
+                          carrying light woolens (in the hills) and cotton clothes (in other areas) will be enough. On
+                          the other hand, if the trip is scheduled between October and February, carrying heavy woollens
+                          for North India and light woollens for South India is advisable.
+                          <br><br>
+                          <span class="fw-bolder text-secondary">2. Special Interest Tour : </span>If you have booked
+                          your tour for trekking in India or wildlife safari or any other specific activity, then the
+                          clothing has to be carried accordingly. For wildlife safari, camouflage clothing, or clothes
+                          of green and brown shades are recommended. For trekking, clothing varies according to the
+                          place, altitude, season and difficulty grade. Though carrying clothes for layering; a down
+                          jacket; a good pair or trekking shoes; a sun hat; a woollen cap, muffler; socks; and a pair of
+                          gloves are required.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-quora" viewBox="0 0 16 16">
+                          <path
+                            d="M8.73 12.476c-.554-1.091-1.204-2.193-2.473-2.193-.242 0-.484.04-.707.142l-.43-.863c.525-.45 1.373-.808 2.464-.808 1.697 0 2.568.818 3.26 1.86.41-.89.605-2.093.605-3.584 0-3.724-1.165-5.636-3.885-5.636-2.68 0-3.839 1.912-3.839 5.636 0 3.704 1.159 5.596 3.84 5.596.425 0 .811-.046 1.166-.15Zm.665 1.3a7.127 7.127 0 0 1-1.83.244C3.994 14.02.5 11.172.5 7.03.5 2.849 3.995 0 7.564 0c3.63 0 7.09 2.828 7.09 7.03 0 2.337-1.09 4.236-2.675 5.464.512.767 1.04 1.277 1.773 1.277.802 0 1.125-.62 1.179-1.105h1.043c.061.647-.262 3.334-3.178 3.334-1.767 0-2.7-1.024-3.4-2.224Z" />
+                        </svg>&emsp;
+                        Is payment through credit card accepted in India widely?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>
+                          Yes, in all major cities and towns in India, credit card payments are accepted in hotels,
+                          restaurants, and shops. Visa and Master Cards are widely accepted around the country, while
+                          some places also accept American Express, besides other types of cards.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-quora" viewBox="0 0 16 16">
+                          <path
+                            d="M8.73 12.476c-.554-1.091-1.204-2.193-2.473-2.193-.242 0-.484.04-.707.142l-.43-.863c.525-.45 1.373-.808 2.464-.808 1.697 0 2.568.818 3.26 1.86.41-.89.605-2.093.605-3.584 0-3.724-1.165-5.636-3.885-5.636-2.68 0-3.839 1.912-3.839 5.636 0 3.704 1.159 5.596 3.84 5.596.425 0 .811-.046 1.166-.15Zm.665 1.3a7.127 7.127 0 0 1-1.83.244C3.994 14.02.5 11.172.5 7.03.5 2.849 3.995 0 7.564 0c3.63 0 7.09 2.828 7.09 7.03 0 2.337-1.09 4.236-2.675 5.464.512.767 1.04 1.277 1.773 1.277.802 0 1.125-.62 1.179-1.105h1.043c.061.647-.262 3.334-3.178 3.334-1.767 0-2.7-1.024-3.4-2.224Z" />
+                        </svg>&emsp;
+                        Is India a safe place to travel with kids ?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                      data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>
+                          Yes, it is safe to travel to India with kids. While you can travel with kids almost anywhere
+                          in the country, there are some places that make for better family travel destinations, with
+                          their good hotels, plenty of activities for kids, clean air and safer environs.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-quora" viewBox="0 0 16 16">
+                          <path
+                            d="M8.73 12.476c-.554-1.091-1.204-2.193-2.473-2.193-.242 0-.484.04-.707.142l-.43-.863c.525-.45 1.373-.808 2.464-.808 1.697 0 2.568.818 3.26 1.86.41-.89.605-2.093.605-3.584 0-3.724-1.165-5.636-3.885-5.636-2.68 0-3.839 1.912-3.839 5.636 0 3.704 1.159 5.596 3.84 5.596.425 0 .811-.046 1.166-.15Zm.665 1.3a7.127 7.127 0 0 1-1.83.244C3.994 14.02.5 11.172.5 7.03.5 2.849 3.995 0 7.564 0c3.63 0 7.09 2.828 7.09 7.03 0 2.337-1.09 4.236-2.675 5.464.512.767 1.04 1.277 1.773 1.277.802 0 1.125-.62 1.179-1.105h1.043c.061.647-.262 3.334-3.178 3.334-1.767 0-2.7-1.024-3.4-2.224Z" />
+                        </svg>&emsp;
+                        What currency should I carry while traveling in India?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                      data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>
+                          India's currency is Indian Rupees; it is advisable to exchange your currency at the airport or
+                          any foreign currency exchange before travelling to India.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6 col-md-6 gx-5">
+                <h3 class="text-secondary my-3">Visa</h3>
+                <div class="accordion accordion-flush py-3" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-quora" viewBox="0 0 16 16">
+                          <path
+                            d="M8.73 12.476c-.554-1.091-1.204-2.193-2.473-2.193-.242 0-.484.04-.707.142l-.43-.863c.525-.45 1.373-.808 2.464-.808 1.697 0 2.568.818 3.26 1.86.41-.89.605-2.093.605-3.584 0-3.724-1.165-5.636-3.885-5.636-2.68 0-3.839 1.912-3.839 5.636 0 3.704 1.159 5.596 3.84 5.596.425 0 .811-.046 1.166-.15Zm.665 1.3a7.127 7.127 0 0 1-1.83.244C3.994 14.02.5 11.172.5 7.03.5 2.849 3.995 0 7.564 0c3.63 0 7.09 2.828 7.09 7.03 0 2.337-1.09 4.236-2.675 5.464.512.767 1.04 1.277 1.773 1.277.802 0 1.125-.62 1.179-1.105h1.043c.061.647-.262 3.334-3.178 3.334-1.767 0-2.7-1.024-3.4-2.224Z" />
+                        </svg>&emsp;
+                        Do I need a Visa to go to India?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                      data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>
+                          All nationals, except nationals from Bhutan, Nepal and Maldives need a valid visa to enter in
+                          India. Maldives National need an Indian visa only when stay in India is longer than 90 days
+                          and Nepali nationals only require it, if they are entering India from china.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSeven">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-quora" viewBox="0 0 16 16">
+                          <path
+                            d="M8.73 12.476c-.554-1.091-1.204-2.193-2.473-2.193-.242 0-.484.04-.707.142l-.43-.863c.525-.45 1.373-.808 2.464-.808 1.697 0 2.568.818 3.26 1.86.41-.89.605-2.093.605-3.584 0-3.724-1.165-5.636-3.885-5.636-2.68 0-3.839 1.912-3.839 5.636 0 3.704 1.159 5.596 3.84 5.596.425 0 .811-.046 1.166-.15Zm.665 1.3a7.127 7.127 0 0 1-1.83.244C3.994 14.02.5 11.172.5 7.03.5 2.849 3.995 0 7.564 0c3.63 0 7.09 2.828 7.09 7.03 0 2.337-1.09 4.236-2.675 5.464.512.767 1.04 1.277 1.773 1.277.802 0 1.125-.62 1.179-1.105h1.043c.061.647-.262 3.334-3.178 3.334-1.767 0-2.7-1.024-3.4-2.224Z" />
+                        </svg>&emsp;
+                        Can I get an Indian Visa on arrival?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>
+                          The Visa on Arrival facility is only for the nationals of Japan, South Korea and UAE (only for
+                          such UAE nationals who had earlier obtained e-Visa or regular/paper visa for India).
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingEight">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-quora" viewBox="0 0 16 16">
+                          <path
+                            d="M8.73 12.476c-.554-1.091-1.204-2.193-2.473-2.193-.242 0-.484.04-.707.142l-.43-.863c.525-.45 1.373-.808 2.464-.808 1.697 0 2.568.818 3.26 1.86.41-.89.605-2.093.605-3.584 0-3.724-1.165-5.636-3.885-5.636-2.68 0-3.839 1.912-3.839 5.636 0 3.704 1.159 5.596 3.84 5.596.425 0 .811-.046 1.166-.15Zm.665 1.3a7.127 7.127 0 0 1-1.83.244C3.994 14.02.5 11.172.5 7.03.5 2.849 3.995 0 7.564 0c3.63 0 7.09 2.828 7.09 7.03 0 2.337-1.09 4.236-2.675 5.464.512.767 1.04 1.277 1.773 1.277.802 0 1.125-.62 1.179-1.105h1.043c.061.647-.262 3.334-3.178 3.334-1.767 0-2.7-1.024-3.4-2.224Z" />
+                        </svg>&emsp;
+                        How can get Indian Visa?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseEight" class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>
+                          You can either apply for E-visa or you need to apply for it through the nearest Indian
+                          consulate/embassy in your country.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingNine">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-quora" viewBox="0 0 16 16">
+                          <path
+                            d="M8.73 12.476c-.554-1.091-1.204-2.193-2.473-2.193-.242 0-.484.04-.707.142l-.43-.863c.525-.45 1.373-.808 2.464-.808 1.697 0 2.568.818 3.26 1.86.41-.89.605-2.093.605-3.584 0-3.724-1.165-5.636-3.885-5.636-2.68 0-3.839 1.912-3.839 5.636 0 3.704 1.159 5.596 3.84 5.596.425 0 .811-.046 1.166-.15Zm.665 1.3a7.127 7.127 0 0 1-1.83.244C3.994 14.02.5 11.172.5 7.03.5 2.849 3.995 0 7.564 0c3.63 0 7.09 2.828 7.09 7.03 0 2.337-1.09 4.236-2.675 5.464.512.767 1.04 1.277 1.773 1.277.802 0 1.125-.62 1.179-1.105h1.043c.061.647-.262 3.334-3.178 3.334-1.767 0-2.7-1.024-3.4-2.224Z" />
+                        </svg>&emsp;
+                        How can I apply for Indian E-visa?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine"
+                      data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>
+                          For details regarding procedure for applying, please visit our website:
+                          https://indianvisaonline.gov.in/evisa/
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTen">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-quora" viewBox="0 0 16 16">
+                          <path
+                            d="M8.73 12.476c-.554-1.091-1.204-2.193-2.473-2.193-.242 0-.484.04-.707.142l-.43-.863c.525-.45 1.373-.808 2.464-.808 1.697 0 2.568.818 3.26 1.86.41-.89.605-2.093.605-3.584 0-3.724-1.165-5.636-3.885-5.636-2.68 0-3.839 1.912-3.839 5.636 0 3.704 1.159 5.596 3.84 5.596.425 0 .811-.046 1.166-.15Zm.665 1.3a7.127 7.127 0 0 1-1.83.244C3.994 14.02.5 11.172.5 7.03.5 2.849 3.995 0 7.564 0c3.63 0 7.09 2.828 7.09 7.03 0 2.337-1.09 4.236-2.675 5.464.512.767 1.04 1.277 1.773 1.277.802 0 1.125-.62 1.179-1.105h1.043c.061.647-.262 3.334-3.178 3.334-1.767 0-2.7-1.024-3.4-2.224Z" />
+                        </svg>&emsp;
+                        Do Infants need E-visa?
+                        </p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen"
+                      data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>
+                          Yes, all the children need E-visa and a separate application must be filled for each passport.
+                          Please ensure that your child?s passport is valid at-least for next 06 (six) months from the
+                          date of arrival in India.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CONTACT US -->
+
+
+        <div id="contact-us" class="contact-area section-padding my-5" data-aos="fade-up">
+          <div class="container">
+            <div class="section-title text-center">
+              <h1>Get in Touch</h1>
+              <p>Get in touch with our Team. Start your journey Now</p>
+            </div>
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="contact">
+                  <form class="form" name="userform" method="post" action="contact.php" onsubmit="return validation();">
+                    <div class="row">
+                      <div class="form-group col-md-6 p-2">
+                        <input id="name" type="text" name="name" class="form-control" placeholder="Name">
+                      </div>
+                      <div class="form-group col-md-6 p-2">
+                        <input id="email" type="email" name="email" class="form-control" placeholder="Email">
+                      </div>
+                      <div class="form-group col-md-12 p-2">
+                        <input id="subject" type="text" name="subject" class="form-control" placeholder="Subject"
+                        >
+                      </div>
+                      <div class="form-group col-md-12 p-2">
+                        <textarea id="message" rows="6" name="message" class="form-control" placeholder="Your Message"
+                        ></textarea>
+                      </div>
+                      <div class="col-md-12 text-center p-2">
+                        <button type="submit" value="Send message" name="submit" id="submitButton"
+                          class="btn btn-contact-bg" title="Submit Your Message!">Send Message</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div><!--- END COL -->
+              <div class="col-lg-5 pt-3">
+                <div class="single_address">
+                  <i class="fa fa-map-marker"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                      fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                      <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                    </svg></i>
+                  <h4>Our Address</h4>
+                  <p>133F Raja Rajendralal Mitra Road, Phoolbagan, Beleghata, Kolkata -700085 - West Bengal</p>
+                </div>
+                <div class="single_address">
+                  <i class="fa fa-envelope"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                      fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                      <path
+                        d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z" />
+                      <path
+                        d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z" />
+                    </svg></i>
+                  <h4>Send your message</h4>
+                  <p>saptakb738@gmail.com</p>
+                </div>
+                <div class="single_address">
+                  <i class="fa fa-phone"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                      fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                    </svg></i>
+                  <h4>Call us on</h4>
+                  <p>(+91) 98364 38819</p>
+                </div>
+                <div class="single_address">
+                  <i class="fa fa-clock-o"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                      fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
+                      <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                    </svg></i>
+                  <h4>Working Hours</h4>
+                  <p>Mon - Fri: 08.00 - 16.00. <br>Sat: 10.00 - 14.00</p>
+                </div>
+              </div><!--- END COL -->
+            </div><!--- END ROW -->
+          </div><!--- END CONTAINER -->
+        </div>
+
+
+    </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+
+  <footer class="foot bg-black text-light">
+    <div class="row p-lg-5 p-md-3 mt-0 m-lg-5 m-md-3 mb-2 m-2 p-2 pb-2 mt-lg-0 mt-md-0 pb-lg-2 mb-lg-2 pt-5">
+      <div class="col-6 col-md-3 col-lg-3 mb-3">
+        <h5 class="pb-2">Our Contact</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">
+              <address>
+                <h6>Wonderlust</h5>
+                  <p class="fst-italic fs-6">
+                    133F RRM Road <br>
+                    Kolkata 700085
+                  </p>
+              </address>
+            </a>
+          </li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-decoration-none">(+91) 8777206890 </a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-decoration-none"> (+91) 9836438819 </a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-decoration-none">saptakb738@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="col-3 col-md-2 col-lg-2 mb-3">
+        <h5 class="pb-2">Quick Link</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-decoration-none">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-decoration-none">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-decoration-none">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-decoration-none">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-decoration-none">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-3 col-md-2 col-lg-2 mb-3">
+        <h5 class="pb-2">Social</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-decoration-none"><i class="bi bi-facebook"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg></i> Facebook</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-decoration-none"><i class="bi bi-twitter"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                </svg></i> Twitter</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-decoration-none"><i class="bi bi-youtube"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                </svg></i> YouTube</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-decoration-none"><i
+                class="bi bi-instagram"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                </svg></i> Instagram</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-decoration-none"><i class="bi bi-linkedin"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                </svg></i> LinkedIn</a></li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-4 col-lg-4 offset-md-1 mb-0">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Monthly digest of what's new and exciting from us.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="pt-lg-4 pt-md-4 pt-3 pb-3 mx-5 border-top">
+      <p class="text-center">© 2022 Saptak Banerjee, Inc. All rights reserved.</p>
+
+      </ul>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!--LOGIN MODAL -->
+
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content bg-black bg-opacity-100 text-light">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="loginModalLabel">Log in to your account</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Log in</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SIGN UP MODAL -->
+
+  <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content bg-black bg-opacity-100 text-light">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="signupModalLabel">Sign up with us</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form class="row g-3 needs-validation" novalidate="">
+            <div class="col-md-6">
+              <label for="validationCustom01" class="form-label">First name</label>
+              <input type="text" class="form-control" id="validationCustom01" value="" required="">
+              <div class="valid-feedback">
+                Enter first name
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom02" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="validationCustom02" value="" required="">
+              <div class="valid-feedback">
+                Enter last name
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom02" class="form-label">Phone number</label>
+              <input type="text" class="form-control" id="validationCustom02" value="" required="">
+              <div class="valid-feedback">
+                Enter phone number
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom02" class="form-label">Mail ID</label>
+              <input type="email" class="form-control" id="validationCustom02" value="" required="">
+              <div class="valid-feedback">
+                Enter mail ID
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustomUsername" class="form-label">Username</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" class="form-control" id="validationCustomUsername"
+                  aria-describedby="inputGroupPrepend" required="">
+                <div class="invalid-feedback">
+                  Please choose a username.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label">Password</label>
+              <input type="password" class="form-control" id="validationCustom03" required="">
+              <div class="invalid-feedback">
+                Please provide a valid Password.
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label">City</label>
+              <input type="text" class="form-control" id="validationCustom03" required="">
+              <div class="invalid-feedback">
+                Please provide a valid city.
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom04" class="form-label">State</label>
+              <select class="form-select" id="validationCustom04" required="">
+                <option selected="" disabled="" value="">Choose...</option>
+                <option>...</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid state.
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom05" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="validationCustom05" required="">
+              <div class="invalid-feedback">
+                Please provide a valid zip.
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required="">
+                <label class="form-check-label" for="invalidCheck">
+                  Agree to terms and conditions
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Sign up</button>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
